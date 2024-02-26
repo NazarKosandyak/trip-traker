@@ -1,4 +1,4 @@
 import PrimeVue from "primevue/config";
-import "primevue/resources/themes/aura-light-green/theme.css";
+import "@/assets/scss/custom-theme/theme.scss";
 
 export default PrimeVue;

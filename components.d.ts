@@ -10,7 +10,10 @@ declare module 'vue' {
     Button: typeof import('primevue/button')['default']
     Index: typeof import('./src/components/pages/home-view/Index.vue')['default']
     InputText: typeof import('primevue/inputtext')['default']
+    LoginForm: typeof import('./src/components/pages/auth/login/LoginForm.vue')['default']
+    Password: typeof import('primevue/password')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    TInputText: typeof import('./src/components/ui/TInputText.vue')['default']
   }
 }
